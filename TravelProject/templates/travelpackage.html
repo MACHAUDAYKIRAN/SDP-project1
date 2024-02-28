@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+{% extends 'navbar.html' %}
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% block body %}
+<div>
+    <div class="card" style="width: 18rem;">
+  <img src="{%static 'images/index.jpg'%}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Welcome to klu</p>
+  </div>
+</div>
+</div>
+{% endblock %}
+</body>
+</html>
